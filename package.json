@@ -1,0 +1,31 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "BOT de twitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start" : "node src/.",
+    "dev" : "nodemon src/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanLozaiza/twitchBOT.git"
+  },
+  "keywords": [
+    "tmi.js",
+    "node.js",
+    "nodemon",
+    "twitch"
+  ],
+  "author": "jonathan loaiza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanLozaiza/twitchBOT/issues"
+  },
+  "homepage": "https://github.com/jonathanLozaiza/twitchBOT#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "tmi.js": "^1.5.0"
+  }
+}
